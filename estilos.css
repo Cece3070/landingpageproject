@@ -1,0 +1,80 @@
+*{
+    margin:0%;
+    box-sizing: border-box;
+
+}
+header{
+background-color: grey;
+padding: 20px;
+text-align:right;
+display: flex;
+justify-content: space-between;
+}
+.search{
+    width: 150px;
+}
+Aside{
+    background-color: darkgray;
+    width: 40%;
+    height: 400px;
+}
+Main{
+    background-color: aqua;
+    width: 900px;
+    height: 400px;
+}
+.jumbotron{
+    display:flex;
+}
+
+.catalogo{
+    background-color: pink;
+    width: 100%;
+    height: 200px;
+}
+.contenedor-cat {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	gap: 20px;
+}
+.card {
+	border-radius: 10px;
+	min-height: 200px;
+	font-weight: bold;
+	padding: 20px;
+	position: relative;
+	overflow: hidden;
+	background-size: cover;
+	background-position: center;
+	
+}
+
+
+.adicionales{
+    background-color: red;
+    width: 100%;
+    height: 250px;
+}
+.contenedor-test {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 20px;
+    padding: 20px;
+}
+.card1 {
+	border-radius: 10px;
+	min-height: 50px;
+	font-weight: bold;
+	padding: 30px;
+	position: relative;
+	overflow: hidden;
+	background-size: cover;
+	background-position: center center;
+	
+}
+
+.footer{
+    background-color: purple;
+    width: 100%;
+    height: 100px;
+}
