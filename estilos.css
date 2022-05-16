@@ -2,8 +2,12 @@
     margin:0%;
     box-sizing: border-box;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-
 }
+.textos-borde {
+    -webkit-text-stroke: 2px black;
+    color: transparent;
+  }
+
 header{
 background-color: grey;
 padding: 20px;
@@ -18,6 +22,7 @@ Aside{
     background-color: darkgray;
     width: 40%;
     height: 400px;
+    color: white;
 }
 Main{
     background-color: aqua;
@@ -26,6 +31,7 @@ Main{
 }
 .jumbotron{
     display:flex;
+
 }
 
 .catalogo{
@@ -33,6 +39,7 @@ Main{
     width: 100%;
     height: 250px;
     text-align: center;
+    color: white;
 }
 .contenedor-cat {
 	display: grid;
@@ -50,10 +57,12 @@ Main{
 	background-position: center;
 	
 }
-.card1 .textos1 {
+.card .textos {
 	display: flex;
-	flex-direction: column;	
-    }
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
 
 
 .adicionales{
@@ -61,22 +70,33 @@ Main{
     width: 100%;
     height: 300px;
     text-align: center;
-}
+    color: white;
+}    
+
+.texto-borde {
+    -webkit-text-stroke: 2px black;
+    color: white;
+  }
+
 .contenedor-test {
-	display: grid;
-	grid-template-columns: repeat(3, 1fr);
-	gap: 20px;
-    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
 }
+
+
 .card1 {
 	border-radius: 10px;
-	min-height: 50px;
+	min-height: 100px;
 	font-weight: bold;
 	padding: 30px;
 	position: relative;
 	overflow: hidden;
 	background-size: cover;
 	background-position: center center;
+    width: calc(33.33% - 20px);
+  
 	
 }
 
