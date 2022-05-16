@@ -5,7 +5,7 @@
 }
 .textos-borde {
     -webkit-text-stroke: 2px black;
-    color: transparent;
+    color: white;
   }
 
 header{
@@ -24,6 +24,16 @@ Aside{
     height: 400px;
     color: white;
 }
+
+.buss-text {
+    display: flex;
+    flex-wrap: wrap;
+	justify-content: space-evenly;
+    text-align: center;
+    gap: 30px;
+    margin-top: 30px;
+}
+
 Main{
     background-color: aqua;
     width: 900px;
@@ -104,8 +114,14 @@ Main{
     background-color: purple;
     width: 315%;
     height: 50px;
-    text-align: left;
+    display: flex;
+    flex-wrap: wrap;    
 }
 .social a {
     padding: 10px;
+    gap: 20px;
   }
+
+.text-copy{
+    justify-content: center;
+}
